@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;700&display=swap');
+
+*{
+    font-family: 'Wix Madefor Display', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+}
+
+
+h1{
+    margin:0;
+    padding:25px;
+    background-color: #F3A002;
+    color:#fff;
+    text-align: center;
+}
+
+
+#scacchiera{
+    width: 720px;
+    height: 680px;
+    border:solid 2px #000;
+    box-sizing: content-box;
+    margin: 25px auto;
+}
+
+#scacchiera ul{
+    list-style: none;
+}
+
+#scacchiera li{
+    width: 70px;
+    height: 70px;
+    border:solid 1px black;
+    float: left;
+    border-radius:8px; 
+    background-color: white;
+    margin: 5px;
+}
